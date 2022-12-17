@@ -9,9 +9,6 @@ class DefaultLayout extends React.Component {
     render() {
         return (
             <html>
-                <nav>
-                    <a href="/meals">Home</a> | <a href="/meals/new">Create a New Meal</a>
-                </nav>
                 <head><title>{this.props.title}</title></head>
                 <body>
                 <div>

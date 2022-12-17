@@ -1,4 +1,5 @@
 const React = require('react')
+const DefaultLayout = require('./Default.jsx')
 
 const myStyle = {
     color: 'yellow',
@@ -25,16 +26,9 @@ class Show extends React.Component {
             }
         }
         return (
+            <DefaultLayout title='Home Page'>
             <div>
                 < link rel='stylesheet' href='/css/nav.css' />
-                <nav>
-                    <div class='lofiCafe'>Lo-Fi Cafe</div>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/meals">Menu</a></li>
-                        <li><a href="/meals/new">Create a New Meal</a></li>
-                    </ul>
-                </nav> <br />
 
                 <h1 style={myStyle} >Enjoy your meal</h1>
 
@@ -52,6 +46,7 @@ class Show extends React.Component {
                 </form>
 
             </div >
+            </DefaultLayout>
         )
     }
 }
