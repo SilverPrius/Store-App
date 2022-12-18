@@ -15,6 +15,7 @@ class Edit extends React.Component {
                     Quantity: <input type="number" name="quantity" defaultValue={meals.quantity} /><br />
                     Image: <input type="text" name="image" defaultValue={meals.image} /><br />
                     Price: <input type="number" name="price" defaultValue={meals.price} /><br />
+                    Description: <input type="text" name="description" defaultValue={meals.description} /><br />
                     <input type="submit" value="Submit Changes" />
 
                 </form>

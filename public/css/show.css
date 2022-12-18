@@ -1,3 +1,43 @@
 *{
     text-align: center;
 }
+
+.oos-message{
+    font-weight: bold;
+    color: rgb(228, 68, 68);
+    border-style: solid;
+}
+
+.item-info{
+    display: flex;
+    max-width: 90vw;
+    margin: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    /* margin-right: 25px;  */
+}
+
+.text-container{
+   max-width: 400px;
+   
+}
+
+form{
+    margin-top: 20px;
+}
+
+/* button {
+    /* background-color: #ffff;
+    border: solid;
+    color: rgb(18, 178, 227);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; */
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26pt;
+    width: 100%;
+} */

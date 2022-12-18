@@ -12,18 +12,19 @@ class New extends React.Component {
             <DefaultLayout title='New Page'>
             <div>
                 < link rel='stylesheet' href='/css/nav.css' />
+                < link rel='stylesheet' href='/css/new.css' />
                 <h1 style={myStyle}>New Meals page</h1>
-                <form action="/meals" method="POST">
+                <form action="/meals" method="POST"><h2>
                     Name: <input type="text" name="name" />
-                    <br />
+                    <br></br>
                     Quantity: <input type='number' name='quantity' />
                     <br />
                     Image: <input type="text" name="image" />
                     <br />
                     Price: <input type='number' name='price' />
                     <br />
-                    <input type="submit" name="" value="Create Meal" />
-                </form>
+                    <input className='create-button' type="submit" name="" value="Create Meal" />
+                </h2></form>
             </div>
             </DefaultLayout>
             )

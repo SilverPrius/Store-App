@@ -6,7 +6,8 @@ const mealsSchema = new mongoose.Schema({
   name: { type: String, required: true },
   image: { type: String, required: true },
   quantity: { type: Number, required: true },
-  price: { type: Number, required: true }
+  price: { type: Number, required: true },
+  description: { type: String, required: true }
 })
 
 // Creating Meals model : We need to convert our schema into a model-- will be stored in 'meals' collection.  Mongo does this for you automatically

@@ -23,6 +23,7 @@ class Index extends React.Component {
                                         {meals.name[0].toUpperCase() + meals.name.slice(1)}
                                     </a></h2>
                                     <h2>${meals.price}</h2>
+                                    {/* <p className='description'>{meals.description}</p> */}
                                     <div className='img'>
                                         <a href={`/meals/${meals.id}`}>
                                             <img src={meals.image}></img></a>

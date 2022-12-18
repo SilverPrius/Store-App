@@ -29,9 +29,20 @@ img {
 .menuItem {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    border-style:groove;
+    border-style:unset;
     margin-top: 35px;
     /* border-radius: 15px; */
+}
+
+.description{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-info{
+    display: flex;
+    justify-content: flex-start;
 }
 
 /* .menuBackground{
