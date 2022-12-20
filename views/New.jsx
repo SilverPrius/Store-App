@@ -13,7 +13,7 @@ class New extends React.Component {
             <div>
                 < link rel='stylesheet' href='/css/nav.css' />
                 < link rel='stylesheet' href='/css/new.css' />
-                <h1 style={myStyle}>New Meals page</h1>
+                <h1 style={myStyle}>New Meals Page</h1>
                 <form action="/meals" method="POST"><h2>
                     Name: <input type="text" name="name" />
                     <br></br>
@@ -23,6 +23,8 @@ class New extends React.Component {
                     <br />
                     Price: <input type='number' name='price' />
                     <br />
+                    Description: <input type="text" name="description" />
+                    <br></br>
                     <input className='create-button' type="submit" name="" value="Create Meal" />
                 </h2></form>
             </div>

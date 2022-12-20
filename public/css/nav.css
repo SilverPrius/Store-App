@@ -10,22 +10,13 @@ nav{
     z-index: 9999999
 }
 
-nav.lofiCafe{
-    padding: 22px 10px;
-    height: 80px;
-    float: right;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-}
-
 nav ul{
     list-style: none;
     float:right;
     margin: 0;
     padding: 0;
     display: flex; 
+    justify-content: space-evenly;
 }
 
 nav ul li a{
@@ -33,9 +24,10 @@ nav ul li a{
     color: #fff;
     padding: 12px 30px;
     text-decoration: none;
-    font-size: 16px;
+    font-size:x-large;
     font-weight: bold;
     text-transform: uppercase;
+    
 }
 
 nav ul li a:hover{

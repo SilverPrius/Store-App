@@ -19,7 +19,8 @@ class Show extends React.Component {
                         <input type="hidden" name="quantity" defaultValue={meals.quantity - 1} />
                         <input type="hidden" name="image" defaultValue={meals.image} />
                         <input type="hidden" name="price" defaultValue={meals.price} />
-                        <input type="submit" value="BUY" />
+                        <input type="hidden" name="description" defaultValue={meals.description} />
+                        <input className='buttons' type="submit" value="BUY" />
                     </form> </div>
             } else {
                 return (<div className='oos-message'><h2>SOLD OUT</h2></div>)
@@ -43,10 +44,10 @@ class Show extends React.Component {
 
                             {outOfStock()} <br />
 
-                            <button><a style={{ textDecoration: 'none' }} href={`/meals/${meals._id}/edit`}>EDIT</a></button>
+                            <button className='buttons'><a style={{ textDecoration: 'none' }} href={`/meals/${meals._id}/edit`}>EDIT</a></button>
                             
                             <form action={`/meals/${meals._id}?_method=DELETE`} method="POST">
-                                <input type="submit" value="DELETE" />
+                                <input className='buttons' type="submit" value="DELETE" />
                             </form>
                         </div>
                         
