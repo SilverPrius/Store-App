@@ -7,7 +7,12 @@ class Home extends React.Component {
             <DefaultLayout title='Home Page'>
                 < link rel='stylesheet' href='/css/home.css' />
                 < link rel='stylesheet' href='/css/default.css' />
+                <div className='logo-container'>
                 <div className='logo'></div>
+                </div>
+                <div className='audio-container'>
+                <audio controls autoPlay='true'> <source src='/music/music.mp3' type='audio/mpeg'></source></audio>
+                </div>
                 <div className='background'>
                     <div className='welcome-text'>
                         <h3>SAVOR THE FLAVORS AND THE SOUNDS</h3>

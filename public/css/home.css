@@ -1,13 +1,12 @@
 h2 {
     text-align: center;
+    margin-bottom: 60px;
 }
 
 h3 {
     color: green;
     font-size: xx-large;
     line-height: 34px;
-    margin-bottom: 0%;
-    margin-top: 40px;
 }
 
 p {
@@ -71,3 +70,9 @@ p {
 .welcome-text {
     text-align: center;
 }
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center 
+  }

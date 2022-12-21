@@ -48,18 +48,24 @@ body{
 .logo{
     background-image: url('../images/logo7.png');
     object-fit:cover;
-    height: 150px;
-    width: 600px;
+    height: 200px;
+    width: 500px;
     padding-top: 15px;
     margin: auto;
     background-size:contain;
-    position:relative;
+    /* position:relative; */
     background-repeat: no-repeat;
-    display: block;
-  margin-left: 39vw;
+    /* display: block;
+  margin-left: 39vw; */
 
 
 }
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center 
+  }
 
 .logo img{
     /* display:block;
