@@ -8,7 +8,7 @@ const methodOverride = require('method-override')
 //Load express
 const express = require('express')
 
-// Global configuration -tell Mongoose where to connect with Mongo and have it connect with the sub-database tweets(if it doesn't exist, it will be created)
+// Global configuration -tell Mongoose where to connect with Mongo and have it connect with the sub-database meals(if it doesn't exist, it will be created)
 const mongoURI = process.env.MONGO_URI
 const db = mongoose.connection
 //Create express app
@@ -56,6 +56,10 @@ mongoose.connection.once('open', () => {
 })
 
 // Index route = Show all records
+app.get('/', (req, res) => {
+    res.render('Home')
+})
+
 app.get('/meals', (req, res) => {
     Meals.find({}, (error, allMeals) => {
         res.render('Index', {
@@ -63,11 +67,6 @@ app.get('/meals', (req, res) => {
         })
     })
 })
-
-app.get('/', (req, res) => {
-    res.render('Home')
-})
-
 
 //New - GET A FORM TO CREATE A NEW RECORD
 app.get('/meals/new', (req, res) => {
