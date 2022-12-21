@@ -65,8 +65,8 @@ app.get('/meals', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-        res.render('Home')
-    })
+    res.render('Home')
+})
 
 
 //New - GET A FORM TO CREATE A NEW RECORD

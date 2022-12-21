@@ -28,15 +28,13 @@ class Show extends React.Component {
         }
         return (
             <DefaultLayout title='Show Page'>
-                <div>
                     < link rel='stylesheet' href='/css/nav.css' />
                     < link rel='stylesheet' href='/css/show.css' />
-
-                    <h1 style={myStyle} >Enjoy your meal</h1>
+                    <div className='logo'></div>
                     <div className='item-info'>
                         <img src={meals.image}></img>
                         <div className='text-container'>
-                            <h2>{meals.name[0].toUpperCase() + meals.name.slice(1)}</h2>
+                            <h2 className='meal-name' >{meals.name[0].toUpperCase() + meals.name.slice(1)}</h2>
 
                             <p>{meals.description}</p>
 
@@ -45,14 +43,12 @@ class Show extends React.Component {
                             {outOfStock()} <br />
 
                             <button className='buttons'><a style={{ textDecoration: 'none' }} href={`/meals/${meals._id}/edit`}>EDIT</a></button>
-                            
+
                             <form action={`/meals/${meals._id}?_method=DELETE`} method="POST">
                                 <input className='buttons' type="submit" value="DELETE" />
                             </form>
                         </div>
-                        
                     </div>
-                </div >
             </DefaultLayout>
         )
     }

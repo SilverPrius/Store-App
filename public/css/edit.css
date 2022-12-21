@@ -1,17 +1,17 @@
+*{
+    text-align: center;
+}
+
 .submit-button{
     font-size: large;
 }
 
 .submit-button:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 form{
     margin: auto;
-}
-
-*{
-    text-align: center;
 }
 
 h1{
@@ -20,4 +20,8 @@ h1{
 
 h2{
     font-size: xx-large;
+}
+
+input{
+    font-size: large;
 }

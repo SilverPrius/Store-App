@@ -1,23 +1,27 @@
-.create-button{
+* {
+    text-align: center;
+}
+
+.create-button {
     font-size: large;
 }
 
 .create-button:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
-form{
+form {
     margin: auto;
 }
 
-*{
-    text-align: center;
-}
-
-h1{
+h1 {
     margin-top: 60px;
 }
 
-h2{
+h2 {
     font-size: xx-large;
+}
+
+input {
+    font-size: large;
 }
