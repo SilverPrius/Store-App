@@ -21,7 +21,7 @@ Clicking on the menu links will redirect you to the Index route. Here, users can
 ![Home Route](/public/images/index-route.png)
 
 ### New Route (URL: /meals/new)
-Clicking the Create A New Meal link on the nav bar will redirect users to the New route. To create, users must fill in the properties for the new meal and then click the Create Meal button. All parameters are required to be filled out in order to successfully create a new meal.
+Clicking the Create A New Meal link on the nav bar will redirect users to the New route where a form will be displayed. To create, users must fill in the properties for the new meal and then click the Create Meal button. All parameters are required to be filled out in order to successfully create a new meal.
 
 Required input types for each property:
 - Name - String
@@ -41,11 +41,17 @@ Clicking on a menu item will rediect users to its show page. All properties of t
 ![Home Route](/public/images/show-route.png)
 
 ### Edit Route (URL: /meals/:id/edit)
+Clicking the Edit button will redirect users to the meal's Edit page. A form will be displayed just like in the New route. But this time, the input boxes will be prefilled with the existing properties saved in the database. Users can make changes to the properties and then click the Submit Edits button. Once this is completed, the user will be redirected back to the meal's page, and the edited properties will be displayed. The database will also be updated with these edits.
+
+![Home Route](/public/images/edit-route.png)
 
 ### Update Route (URL: /meals/:id)
-Clicking the buy button will update the meal's quantity property by decrementing it by 1. It also redirects the user to the meal's updated show page along with the updated quantity. If the quantity remaining is ever less than 1, a SOLD OUT text will replace the quantity on the Show page, and the Buy button will be removed.
+Clicking the Buy button will update the meal's quantity property by decrementing it by 1. It also redirects the user to the meal's updated show page along with the updated quantity. If the quantity remaining is ever less than 1, a SOLD OUT text will replace the quantity on the Show page, and the Buy button will be removed.
 
 ![Home Route](/public/images/update-route.png)
+
+### Destroy Route  (URL: /meals/:id)
+Clicking the Delete button will remove the meal from both the menu and the database. The user will then be redirected to the menu page.
 
 
 
