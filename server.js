@@ -55,11 +55,13 @@ mongoose.connection.once('open', () => {
     console.log('connected to mongo')
 })
 
-// Index route = Show all records
+//Home page
 app.get('/', (req, res) => {
     res.render('Home')
 })
 
+
+// Index route = Show all records
 app.get('/meals', (req, res) => {
     Meals.find({}, (error, allMeals) => {
         res.render('Index', {
