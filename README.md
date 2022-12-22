@@ -67,13 +67,13 @@ Clicking the Delete button will remove the meal from both the menu and the datab
 - GitHub
 
 ## Acknowledgements and Resources
-My instructors Tishana Trainor and Kasper Kain
+- - My instructors Tishana Trainor and Kasper Kain
 My cohortmates Sharon Ogbonna and Cody Jennings
-[Create a custom logo](https://www.looka.com)
-[Inspiration for my nav bar](https://www.youtube.com/watch?v=ZotQNKyvZsw&t=191s)
-[Inspiration for my home page body](https://www.thecafehollywood.com/)
-[How to use Flexbox](https://www.youtube.com/watch?v=QmZNFnqwu74&ab_channel=CemEygiMedia)
-[How to add audio using HTML](https://www.youtube.com/watch?v=9F49XgzlZgA&t=1s&ab_channel=GeekTutorials)
+- [Create a custom logo](https://www.looka.com)
+- [Inspiration for my nav bar](https://www.youtube.com/watch?v=ZotQNKyvZsw&t=191s)
+- [Inspiration for my home page body](https://www.thecafehollywood.com/)
+- [How to use Flexbox](https://www.youtube.com/watch?v=QmZNFnqwu74&ab_channel=CemEygiMedia)
+- [How to add audio using HTML](https://www.youtube.com/watch?v=9F49XgzlZgA&t=1s&ab_channel=GeekTutorials)
 
 ## To access this repo:
 Open Git Bash and run the following in your terminal:
