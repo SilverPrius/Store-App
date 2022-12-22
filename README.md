@@ -10,7 +10,7 @@ I chose to go with a lo-fi music theme because ever since I began the bootcamp, 
 ## Cafe Tour - My 7 RESTful Routes (INDUCES)
 
 ### Default Features
-All routes begin with a navigation bar at the top and the cafe's logo below it. Users can navigate to the Home, Menu or Create A New Meal page using the nav bar. Clicking on the logo will also redirect you to the homepage.
+All routes begin with a navigation bar at the top and the cafe's logo below it. Users can navigate to the Home, Menu or Create A New Meal page using the nav bar.
 
 ### Root Route (URL: /)
 Landing on the homepage will automatically play a Lo-fi song that I thought was fitting for the page. The controls for the audio are below the logo with options to pause, play, seek and adjust the volume. In green text is the slogan for the cafe, followed by a welcome message to our guests. At the bottom of the page are images that can be used as buttons. The first is to view the Menu and the other is to Create a new item for our menu.

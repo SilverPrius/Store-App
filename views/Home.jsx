@@ -8,10 +8,10 @@ class Home extends React.Component {
                 < link rel='stylesheet' href='/css/home.css' />
                 < link rel='stylesheet' href='/css/default.css' />
                 <div className='logo-container'>
-                <div className='logo'></div>
+                    <div className='logo'></div>
                 </div>
                 <div className='audio-container'>
-                <audio controls autoPlay='true'> <source src='/music/music.mp3' type='audio/mpeg'></source></audio>
+                    <audio controls autoPlay='true'> <source src='/music/music.mp3' type='audio/mpeg'></source></audio>
                 </div>
                 <div className='background'>
                     <div className='welcome-text'>
