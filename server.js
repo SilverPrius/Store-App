@@ -55,7 +55,7 @@ mongoose.connection.once('open', () => {
     console.log('connected to mongo')
 })
 
-//Home page
+//Root/Home page
 app.get('/', (req, res) => {
     res.render('Home')
 })
