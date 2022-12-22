@@ -16,14 +16,14 @@ Landing on the homepage will automatically play a Lo-fi song that I thought was 
 ![Home Route](/public/images/home-route.png)
 
 ### Index Route (URL: /meals)
-Clicking on the menu links will redirect you to the Index route. Here, users can browse through the available meal options. A name, price and photo is displayed for each meal. These will all enlarge when the user hovers their cursor over an item, along with a border to help indicate which meal is being selected. Clicking on a a meal will redirect you to its show page.
+Clicking on the menu links will redirect you to the Index route. Here, users can browse through the available meal options. A name, price and image is displayed for each meal. These will all enlarge when the user hovers their cursor over an item, along with a border to help indicate which meal is being selected. Clicking on a a meal will redirect you to its show page.
 
-![Home Route](/public/images/show-route.png)
+![Home Route](/public/images/index-route.png)
 
 ### New Route (URL: /meals/new)
 Clicking the Create A New Meal link on the nav bar will redirect users to the New route. To create, users must fill in the properties for the new meal and then click the Create Meal button. All parameters are required to be filled out in order to successfully create a new meal.
 
-Required input types for eat property:
+Required input types for each property:
 - Name - String
 - Quantity - Number
 - Image URL - String
@@ -32,8 +32,23 @@ Required input types for eat property:
 
 ![Home Route](/public/images/create-route.png)
 
-## Create Route (URL: /meals)
-Once the Create button is clicked, the user will be redirected to the menu page. If the meal was created successfully, it will be added to the database and the new meal will now appear at the bottom of the menu.
+### Create Route (URL: /meals)
+Once the Create button is clicked, the user will be redirected to the menu page. If the meal was created successfully, it will be added to the database, and the new meal will now appear at the bottom of the menu.
+
+### Show Route (URL: /meals/:id)
+Clicking on a menu item will rediect users to its show page. All properties of the meal will be displayed along with three buttons. The buttons are for Buy, Edit and Delete. 
+
+![Home Route](/public/images/show-route.png)
+
+### Edit Route (URL: /meals/:id/edit)
+
+### Update Route (URL: /meals/:id)
+Clicking the buy button will update the meal's quantity property by decrementing it by 1. It also redirects the user to the meal's updated show page along with the updated quantity. If the quantity remaining is ever less than 1, a SOLD OUT text will replace the quantity on the Show page, and the Buy button will be removed.
+
+![Home Route](/public/images/update-route.png)
+
+
+
 
 
 
