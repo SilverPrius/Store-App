@@ -67,8 +67,8 @@ Clicking the Delete button will remove the meal from both the menu and the datab
 - GitHub
 
 ## Acknowledgements and Resources
-- - My instructors Tishana Trainor and Kasper Kain
-My cohortmates Sharon Ogbonna and Cody Jennings
+- My instructors Tishana Trainor and Kasper Kain
+- My cohortmates Sharon Ogbonna and Cody Jennings
 - [Create a custom logo](https://www.looka.com)
 - [Inspiration for my nav bar](https://www.youtube.com/watch?v=ZotQNKyvZsw&t=191s)
 - [Inspiration for my home page body](https://www.thecafehollywood.com/)
