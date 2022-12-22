@@ -8,29 +8,35 @@ I chose to go with a lo-fi music theme because ever since I began the bootcamp, 
 ## Cafe Tour - My 7 RESTful Routes (INDUCES)
 
 ### Default Features
-All routes begins with a navigation bar at the top and the cafe's logo below it. Users can navigate to the Home, Menu and Create A New Meal page using the nav bar. Clicking on the logo will also direct you to the homepage.
+All routes begins with a navigation bar at the top and the cafe's logo below it. Users can navigate to the Home, Menu and Create A New Meal page using the nav bar. Clicking on the logo will also redirect you to the homepage.
 
-### Home Route
+### Home Route (URL: /)
 Landing on the homepage will automatically play a Lo-fi song that I thought was fitting for the page. The controls for the audio are below the logo with options to pause, play, seek and adjust the volume. In green text is the slogan for the cafe followed by a welcome message to our guests. At the bottom of the page are images that can be used as buttons. The first is to view the Menu and the other is to Create a new item for our menu.
 
 ![Home Route](/public/images/home-route.png)
 
-### Index Route
-Clicking on the menu links will direct you to the Index route. Here, users can browse through the available meal options. A name, price and photo is displayed for each meal. These will all enlarge when the user hovers their cursor over an item, along with a border to help indicate which meal is being selected. Clicking on a a meal will direct you to its show page.
+### Index Route (URL: /meals)
+Clicking on the menu links will redirect you to the Index route. Here, users can browse through the available meal options. A name, price and photo is displayed for each meal. These will all enlarge when the user hovers their cursor over an item, along with a border to help indicate which meal is being selected. Clicking on a a meal will redirect you to its show page.
 
 ![Home Route](/public/images/show-route.png)
 
-### New Route
-Clicking the Create A New Meal link on the nav bar will direct users to the New route. To create, users must fill in the properties for the new meal and then click the Create Meal button. All parameters are required to be filled out in order to successfully create a new meal. Once the Create button is clicked, the user will be directed to the menu page. If the meal was created successfully, the new meal will now appear at the bottom of the menu.
+### New Route (URL: /meals/new)
+Clicking the Create A New Meal link on the nav bar will redirect users to the New route. To create, users must fill in the properties for the new meal and then click the Create Meal button. All parameters are required to be filled out in order to successfully create a new meal.
 
 Required input types for eat property:
-Name - String
-Quantity - Number
-Image URL - String
-Price - Number
-Description - String
+- Name - String
+- Quantity - Number
+- Image URL - String
+- Price - Number
+- Description - String
 
 ![Home Route](/public/images/create-route.png)
+
+## Create Route (URL: /meals)
+Once the Create button is clicked, the user will be redirected to the menu page. If the meal was created successfully, it will be added to the database and the new meal will now appear at the bottom of the menu.
+
+
+
 
 
 
