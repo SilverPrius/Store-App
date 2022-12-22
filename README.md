@@ -5,7 +5,7 @@ This website is for the second project of my Software Engineering bootcamp at Pe
 
 I chose to go with a lo-fi music theme because ever since I began the bootcamp, this is what I am usually listening to when I am studying or working on assignments. To me, it is the perfect background music for studying because it gives off a calming, relaxing vibe, and is not distracting. I imagined myself visitng a place like this that had a slow paced and relaxing ambiance where I could soak into a comfortable seat and just settle down for a bit after a long day. A place where I could enjoy a moment just to.. like my slogan says,"Savor the flavors and the sounds".
 
-[YouTube Presentation Video](https://www.youtube.com/watch?v=w8k2OXyGPM0&ab_channel=LH)
+[YouTube Presentation Video](https://www.youtube.com/watch?v=v5zXvQLzxDg&ab_channel=LH)
  
 ## Cafe Tour - My 7 RESTful Routes (INDUCES)
 
