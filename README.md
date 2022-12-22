@@ -1,17 +1,17 @@
 # Lo-Fi Cafe / Project #2: The Store
 
 ## Introduction and Motivation
-This website is for the second project in my Software Engineering bootcamp at Per Scholas.
+This website is for the second project of my Software Engineering bootcamp at Per Scholas.
 
 I chose to go with a lo-fi music theme because ever since I began the bootcamp, this is what I am usually listening to when I am studying or working on assignments. To me, it is the perfect background music for studying because it gives off a calming, relaxing vibe, and is not distracting. I imagined myself visitng a place like this that had a slow paced and relaxing ambiance where I could soak into a comfortable seat and just settle down for a bit after a long day. A place where I could enjoy a moment just to.. like my slogan says,"Savor the flavors and the sounds".
  
 ## Cafe Tour - My 7 RESTful Routes (INDUCES)
 
 ### Default Features
-All routes begins with a navigation bar at the top and the cafe's logo below it. Users can navigate to the Home, Menu and Create A New Meal page using the nav bar. Clicking on the logo will also redirect you to the homepage.
+All routes begin with a navigation bar at the top and the cafe's logo below it. Users can navigate to the Home, Menu or Create A New Meal page using the nav bar. Clicking on the logo will also redirect you to the homepage.
 
-### Home Route (URL: /)
-Landing on the homepage will automatically play a Lo-fi song that I thought was fitting for the page. The controls for the audio are below the logo with options to pause, play, seek and adjust the volume. In green text is the slogan for the cafe followed by a welcome message to our guests. At the bottom of the page are images that can be used as buttons. The first is to view the Menu and the other is to Create a new item for our menu.
+### Root Route (URL: /)
+Landing on the homepage will automatically play a Lo-fi song that I thought was fitting for the page. The controls for the audio are below the logo with options to pause, play, seek and adjust the volume. In green text is the slogan for the cafe, followed by a welcome message to our guests. At the bottom of the page are images that can be used as buttons. The first is to view the Menu and the other is to Create a new item for our menu.
 
 ![Home Route](/public/images/home-route.png)
 
@@ -46,12 +46,43 @@ Clicking the Edit button will redirect users to the meal's Edit page. A form wil
 ![Home Route](/public/images/edit-route.png)
 
 ### Update Route (URL: /meals/:id)
-Clicking the Buy button will update the meal's quantity property by decrementing it by 1. It also redirects the user to the meal's updated show page along with the updated quantity. If the quantity remaining is ever less than 1, a SOLD OUT text will replace the quantity on the Show page, and the Buy button will be removed.
+Clicking the Buy button will update the meal's quantity by decrementing it by 1. It also redirects the user to the meal's show page which will now display the updated quantity. 
+
+If the quantity remaining is ever less than 1, a SOLD OUT text will replace the quantity on the show page, and the Buy button will be removed.
 
 ![Home Route](/public/images/update-route.png)
 
 ### Destroy Route  (URL: /meals/:id)
-Clicking the Delete button will remove the meal from both the menu and the database. The user will then be redirected to the menu page.
+Clicking the Delete button will remove the meal from both the menu and the database. The user will then be redirected to the menu/index page.
+
+## Technologies Used
+- JavaScript
+- CSS
+- HTML
+- Node
+- Express
+- React
+- MongoDB
+- Visual Studio Code
+- GitHub
+
+## Acknowledgements and Resources
+My instructors Tishana Trainor and Kasper Kain
+My cohortmates Sharon Ogbonna and Cody Jennings
+[Create a custom logo](https://www.looka.com)
+[Inspiration for my nav bar](https://www.youtube.com/watch?v=ZotQNKyvZsw&t=191s)
+[Inspiration for my home page body](https://www.thecafehollywood.com/)
+[How to use Flexbox](https://www.youtube.com/watch?v=QmZNFnqwu74&ab_channel=CemEygiMedia)
+[How to add audio using HTML](https://www.youtube.com/watch?v=9F49XgzlZgA&t=1s&ab_channel=GeekTutorials)
+
+## To access this repo:
+Open Git Bash and run the following in your terminal:
+`git clone https://github.com/SilverPrius/Store-App.git`
+
+
+
+
+
 
 
 
