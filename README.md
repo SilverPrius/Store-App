@@ -5,7 +5,8 @@ This website is for the second project of my Software Engineering bootcamp at Pe
 
 I chose to go with a lo-fi music theme because ever since I began the bootcamp, this is what I am usually listening to when I am studying or working on assignments. To me, it is the perfect background music for studying because it gives off a calming, relaxing vibe, and is not distracting. I imagined myself visitng a place like this that had a slow paced and relaxing ambiance where I could soak into a comfortable seat and just settle down for a bit after a long day. A place where I could enjoy a moment just to.. like my slogan says,"Savor the flavors and the sounds".
 
-[YouTube Presentation Video](https://www.youtube.com/watch?v=v5zXvQLzxDg&ab_channel=LH)
+Link to **[YouTube Presentation Video](https://www.youtube.com/watch?v=v5zXvQLzxDg&ab_channel=LH)**
+Link to **[Live Website](https://lo-fi-cafe.onrender.com/)**
  
 ## Cafe Tour - My 7 RESTful Routes (INDUCES)
 
@@ -71,15 +72,29 @@ Clicking the Delete button will remove the meal from both the menu and the datab
 ## Acknowledgements and Resources
 - My instructors Tishana Trainor and Kasper Kain
 - My cohortmates Sharon Ogbonna and Cody Jennings
-- [Create a custom logo](https://www.looka.com)
-- [Inspiration for my nav bar](https://www.youtube.com/watch?v=ZotQNKyvZsw&t=191s)
-- [Inspiration for my home page body](https://www.thecafehollywood.com/)
-- [How to use Flexbox](https://www.youtube.com/watch?v=QmZNFnqwu74&ab_channel=CemEygiMedia)
-- [How to add audio using HTML](https://www.youtube.com/watch?v=9F49XgzlZgA&t=1s&ab_channel=GeekTutorials)
+- Create a custom logo **[Looka](https://www.looka.com)**
+- Inspiration for my nav bar **[YouTube Video](https://www.youtube.com/watch?v=ZotQNKyvZsw&t=191s)**
+- Inspiration for my home page body **[www.thecafehollywood.com](https://www.thecafehollywood.com/)**
+- How to use Flexbox **[YouTube Video](https://www.youtube.com/watch?v=QmZNFnqwu74&ab_channel=CemEygiMedia)**
+- How to add audio using HTML **[YouTube Video](https://www.youtube.com/watch?v=9F49XgzlZgA&t=1s&ab_channel=GeekTutorials)**
 
-## To access this repo:
-Open Git Bash and run the following in your terminal:
-`git clone https://github.com/SilverPrius/Store-App.git`
+## How to access this repo
+**To fork:**
+* Select the fork button in the upper right hand corner
+
+**To clone:** 
+* Open Git Bash and run the following in your terminal: `git clone https://github.com/SilverPrius/Store-App.git`
+
+**Install necessary dependencies:**
+* `npm init -y`
+* `npm i`
+* `npm i -g nodemon`
+
+**Create .env file:**
+* Create a .env file and link it to a MongoDB database
+
+**Start app:**
+* Run nodemon in the terminal and open the app using [Local Host 3000](http://localhost:3000)
 
 
 
