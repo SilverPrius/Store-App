@@ -17,7 +17,7 @@ const app = express()
 
 
 //Set port
-const port = 3000
+const PORT = process.env.PORT || 3000;
 
 // Connect to Mongo
 mongoose.connect(mongoURI)
@@ -128,7 +128,7 @@ app.get('/meals/:indexOfMealssArray', function (req, res) {
 })
 
 
-app.listen(port, () => {
-    console.log(`Listening to port ${port}`)
+app.listen(PORT, () => {
+    console.log(`Listening to port ${PORT}`)
 })
 
